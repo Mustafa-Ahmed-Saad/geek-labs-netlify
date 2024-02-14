@@ -1,0 +1,72 @@
+.filter .dropdown {
+  width: 100%;
+  position: relative;
+  color: var(--text-6b);
+}
+
+.filter .dropdown .menu {
+  /* visibility: hidden; */
+  background-color: #212121;
+  border-radius: 5px;
+  overflow: hidden;
+  /* position: absolute; */
+  width: 100%;
+  /* top: 127%; */
+  opacity: 0;
+  z-index: 1;
+  height: 0px;
+  /* display: none; */
+  padding: 10px 5px;
+  border: 2px solid #fff;
+  display: none;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.filter .dropdown .menu-open {
+  /* visibility: visible; */
+  opacity: 1 !important;
+  height: unset;
+  display: inline-block !important;
+}
+
+.filter .dropdown .menu li {
+  cursor: pointer;
+  padding: 10px 5px;
+  border-radius: 6px;
+}
+
+.filter .dropdown .menu li:hover {
+  background-color: #fff;
+  color: var(--text-6b);
+}
+
+.filter .dropdown .select {
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+  display: flex;
+  padding: 7px 10px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #fff;
+}
+
+.filter .dropdown .select:hover {
+  background-color: #fff;
+  color: #a3a3a3;
+}
+
+.filter .dropdown .select .caret {
+  transition: 0.3s;
+}
+
+.filter .dropdown .select .selected {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.caret-rotate {
+  transform: rotate(180deg);
+}

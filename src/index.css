@@ -1,0 +1,149 @@
+:root {
+  --main-bg-color: #202020;
+  --second-bg-color: #181818;
+  --third-bg-color: #212121;
+  --main-color: #554db7;
+  --text-sim-dark: #404040;
+  --text-6b: #6b6b6b;
+  --text-6c: #acacac;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: var(--main-bg-color) !important;
+  font-family: "Nunito Sans", sans-serif;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  color: #484848;
+}
+
+a {
+  text-decoration: none;
+  color: inherit !important;
+}
+
+.Nunito-sans-font {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.Poppins-font {
+  font-family: "Poppins", sans-serif;
+}
+
+.no-wrap-words {
+  white-space: nowrap;
+}
+
+.text-sim-dark {
+  color: var(--text-sim-dark) !important;
+}
+
+.text-6b {
+  color: var(--text-6b);
+}
+
+.text-6c {
+  color: var(--text-6c);
+}
+
+.text-main {
+  color: var(--main-color) !important;
+}
+.bg-main {
+  background-color: var(--main-color) !important;
+  color: #909090;
+}
+.second-bg-color {
+  background-color: var(--second-bg-color) !important;
+}
+
+.bg-main-light {
+  background-color: var(--third-bg-color);
+}
+
+.rounded-15 {
+  border-radius: 15px;
+}
+
+.rounded-12 {
+  border-radius: 12px;
+}
+
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.outer-line-none {
+  outline: none !important;
+}
+
+.py-2-5 {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.ps-4-5 {
+  padding-left: 2.3rem !important;
+}
+
+.fs-20 {
+  font-size: 1.5rem;
+}
+
+.fs-13 {
+  font-size: 0.8rem;
+}
+
+.fs-11 {
+  font-size: 0.7rem;
+}
+.fs-10 {
+  font-size: 0.8rem;
+}
+.fs-9 {
+  font-size: 0.5rem;
+}
+
+.mx-h-70px {
+  max-height: 70px;
+}
+
+.with-pipe {
+  position: relative;
+}
+.with-pipe::before {
+  content: "";
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  display: inline-block;
+  background: #b9b9b9;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.special-bg {
+  background: linear-gradient(
+    287.84deg,
+    rgba(102, 126, 234, 0.231) 44.52%,
+    rgba(144, 75, 162, 0) 71.09%
+  );
+}
